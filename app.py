@@ -24,8 +24,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# ── CONFIG — ⚠️ Ganti dengan username HF kamu! ────────────────────────────────
-HF_REPO_ID = "YOUR_USERNAME/indonesian-food-calorie-estimator"
+# ── CONFIG ────────────────────────────────────────────────────────────────────
+HF_REPO_ID = "friscaocta/indonesian-food-calorie-estimator"
 MODEL_FILE = "food_classifier.h5"
 CLASS_FILE = "class_indices.json"
 IMG_SIZE   = (224, 224)
